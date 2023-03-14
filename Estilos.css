@@ -1,0 +1,79 @@
+body{/**Aplico Color de fondo al documento*/
+    margin: auto;
+	padding: 10px;
+	background-color: #ffffff;
+	}
+.imagen{/**Aplico borde circular a la imagen de perfil y estidos de borde y sombra*/
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	border-radius: 150px;
+    background-color: #fff;
+    padding: 2px;
+    width: 70px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -webkit-box-shadow: 1px 1px 10px #484848;
+    border-radius: 150px;   		
+	}
+
+h1{/**Aplico estilo de fuente al elementos <h1> y ajustos propiedades*/
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color:#1b241e;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    border: 5px solid #fff;
+    }
+
+h2{/**Aplico estilo de fuente al elementos <h2> y ajustos propiedades*/
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    text-align: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+}
+
+h3{/**Aplico estilo de fuente al elementos <h3> y ajustos propiedades*/
+    font-family: 'Sono', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color:#57695d;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
+    border: 5px solid #fff;
+    }
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    display: block;
+    margin: auto;
+    padding: 2px;
+    width: auto;
+    height: auto;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    }
+
+.table-cell {
+    height: 100px;
+    width: 200px;
+    }
+  
+.table-cell__container {
+    display: table;
+    height: 100%;
+    width: 100%;
+    }
